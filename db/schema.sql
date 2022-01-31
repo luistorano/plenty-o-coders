@@ -1,3 +1,3 @@
-DROP DATABASE IF EXISTS newsfeed_db;
+DROP DATABASE IF EXISTS plentyocoders_db;
 
-CREATE DATABASE newsfeed_db;
+CREATE DATABASE plentyocoders_db;
