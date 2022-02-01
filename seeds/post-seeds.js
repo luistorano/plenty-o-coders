@@ -2,105 +2,126 @@ const { Post } = require('../models');
 
 const postdata = [
   {
-    title: 'Donec posuere metus vitae ipsum.',
-    post_url: 'https://buzzfeed.com/in/imperdiet/et/commodo/vulputate.png',
-    user_id: 10
+    title: 'Error when running my code.',
+    post_url: 'https://github.com/UCF-Coding-Boot-Camp/UCF-VIRT-BO-FSF-PT-10-2021-U-B',
+    user_id: 2,
+    question: 'I am having issues getting my code to work.  I am gettin a error at line 47 in activty 4 module 3.'
   },
   {
-    title: 'Morbi non quam nec dui luctus rutrum.',
-    post_url: 'https://nasa.gov/donec.json',
-    user_id: 8
+    title: 'NPM start wont work!!',
+    post_url: 'https://github.com/EllaCodes2021/prework-about-me',
+    user_id: 1,
+    question: 'I am having issues getting my code to work.  I am gettin a error when I run the comand npm start.'
+
   },
   {
-    title: 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.',
-    post_url: 'https://europa.eu/parturient/montes/nascetur/ridiculus/mus/etiam/vel.aspx',
-    user_id: 1
+    title: 'I know there is an error in the code but where?',
+    post_url: 'https://github.com/EllaCodes2021/urban-octo-telegram',
+    user_id: 2,
+    question: 'I am having issues getting my code to work.  the tests wont run.'
   },
   {
-    title: 'Nunc purus.',
-    post_url: 'http://desdev.cn/enim/blandit/mi.jpg',
-    user_id: 4
+    title: 'Save me before i toss the Computer out the window.',
+    post_url: 'https://github.com/EllaCodes2021/Ella-Challenge-01',
+    user_id: 1,
+    question: 'I am having issues getting my code to work.  I did something and it fixed one error but now i have 2 more.'
   },
   {
-    title: 'Pellentesque eget nunc.',
-    post_url: 'http://google.ca/nam/nulla/integer.aspx',
-    user_id: 7
+    title: 'Please review and let me know what might work better.',
+    post_url: 'https://github.com/EllaCodes2021/task-app',
+    user_id: 2,
+    question: 'I think i did everything i need to but the code is maybe too long or rednudant.'
+
   },
   {
-    title: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
-    post_url: 'https://stanford.edu/consequat.png',
-    user_id: 4
+    title: 'How does this Look?  Portfolio piece',
+    post_url: 'https://github.com/EllaCodes2021/run-buddy',
+    user_id: 1,
+    question: 'I am working on making my portfolio more professional and need some fresh eyes on my code.'
   },
   {
-    title: 'In hac habitasse platea dictumst.',
-    post_url: 'http://edublogs.org/non/ligula/pellentesque.js',
-    user_id: 1
+    title: 'Help Im Stuck on the Module work!',
+    post_url: 'https://github.com/EllaCodes2021/super-disco',
+    user_id: 2,
+    question: 'I am having issues getting my code to work.  Line 47 on the App.js file is giving an error.'
   },
   {
-    title: 'Morbi non quam nec dui luctus rutrum.',
-    post_url: 'http://ucla.edu/consequat/nulla.html',
-    user_id: 1
+    title: 'Call me Crazy but why wont this work.',
+    post_url: 'https://github.com/EllaCodes2021/jest-another-rpg',
+    user_id: 1,
+    question: 'I am having issues getting my code to work.  I am gettin a error from the main.handlebars file.'
   },
   {
-    title: 'Duis ac nibh.',
-    post_url: 'http://theguardian.com/dui/vel/nisl/duis/ac/nibh.aspx',
-    user_id: 9
+    title: 'If your stuck on flexbox for the CSS Challenge check out this reference.',
+    post_url: 'https://css-tricks.com/snippets/css/a-guide-to-flexbox/',
+    user_id: 4,
+    question: 'Are those FlexBoxes Trying to Pull a Fast One? Look no further!'
   },
   {
-    title: 'Curabitur at ipsum ac tellus semper interdum.',
-    post_url: 'https://reverbnation.com/ligula/sit.jpg',
-    user_id: 5
+    title: 'Need more JavaScrip in your life? Check out this Video',
+    post_url: 'https://www.youtube.com/playlist?list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET',
+    user_id: 5,
+    question: 'Looking to explore JavaScript fundamentals in more depth? Watch this video series from the Net Ninja!'
   },
   {
-    title: 'In hac habitasse platea dictumst.',
-    post_url: 'http://china.com.cn/lectus/vestibulum.json',
-    user_id: 3
+    title: 'Trying to Start Your Project & Dont Know Where to Start Psudo Code it.',
+    post_url: 'https://blog.usejournal.com/how-to-write-pseudocode-a-beginners-guide-29956242698',
+    user_id: 6,
+    question: 'Ngunyi Macharia walks beginners through the pseudocoding basics!' 
   },
   {
-    title: 'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.',
-    post_url: 'http://networksolutions.com/nam/ultrices/libero/non/mattis/pulvinar.json',
-    user_id: 10
+    title: 'DOM Elements 101.',
+    post_url: 'https://www.smashingmagazine.com/2013/11/an-introduction-to-dom-events/',
+    user_id: 7,
+    question: 'Looking for a quick guide to DOM events and what they do? Explore this JavaScript.!'
   },
   {
-    title: 'Donec dapibus.',
-    post_url: 'https://instagram.com/ac/neque/duis/bibendum/morbi/non.xml',
-    user_id: 8
+    title: 'JavaScript & jQuery',
+    post_url: 'https://www.youtube.com/watch?v=S8ZuLY-Flm0',
+    user_id: 8,
+    question: 'Still not clear on the differences between jQuery and JavaScript? Heres a short video summarizing some of them!'
   },
   {
     title: 'Nulla tellus.',
     post_url: 'https://lycos.com/natoque/penatibus/et.html',
-    user_id: 3
+    user_id: 9,
+    question: 'Looking to explore JavaScript fundamentals in more depth? Watch this video series from the Net Ninja!'
   },
   {
-    title: 'Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.',
-    post_url: 'https://gmpg.org/lorem.jpg',
-    user_id: 3
+    title: 'Check out this Framework!',
+    post_url: 'Materialize.css (Links to an external site.)',
+    user_id: 10,
+    question: 'We were looking for something to work for our Project and Tank recomended this I thought you all might need it!'
   },
   {
-    title:
-      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.',
-    post_url: 'https://paginegialle.it/mattis/egestas.jsp',
-    user_id: 7
+    title:'Need an API for Project 1?',
+    post_url: 'https://github.com/public-apis/public-apis',
+    user_id: 6,
+    question: 'Looking for server-side APIs to use in your projects? Peruse this evergreen list of free public APIs!'
   },
   {
-    title: 'In hac habitasse platea dictumst.',
-    post_url: 'http://wikia.com/turpis/eget.jpg',
-    user_id: 6
+    title: 'Node.js Tutorial may help you with your first Node Project.',
+    post_url: 'https://www.youtube.com/watch?v=TlB_eWDSMt4',
+    user_id: 7,
+    question: 'Need some more information about Node.js? Check out this Node.js Tutorial for Beginners (Links to an external site.) from Programming with Mosh.'
   },
   {
-    title: 'Etiam justo.',
-    post_url: 'https://shareasale.com/quis.json',
-    user_id: 4
+    title: 'Asynchronous JavaScript and how to understand it.',
+    post_url: 'https://blog.bitsrc.io/understanding-asynchronous-javascript-the-event-loop-74cd408419ff',
+    user_id: 8,
+    question: 'Sukhjinder Arora explains how JavaScript works under the hood in this guide to Understanding Asynchronous JavaScript!'
   },
   {
-    title: 'Nulla ut erat id mauris vulputate elementum.',
-    post_url: 'http://java.com/diam/neque/vestibulum/eget/vulputate/ut/ultrices.png',
-    user_id: 6
+    title: 'What is routing with Node.js?',
+    post_url: 'https://www.geeksforgeeks.org/routing-in-node-js/',
+    user_id: 9,
+    question: 'I found this tutorial from Geeks for Geeks it explained it well it may help you!'
   },
   {
-    title: 'Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.',
-    post_url: 'https://java.com/at/nibh/in.png',
-    user_id: 7
+    title: 'MVC threw me for a loop here is what saved my bacon!',
+    post_url: 'https://www.youtube.com/watch?v=pCvZtjoRq1I',
+    user_id: 10,
+    question: 'Check out Traversey medias MVC brakedown!'
   }
 ];
 

@@ -3,53 +3,53 @@ const { User, Post } = require('../models');
 
 const userdata = [
   {
-    username: 'alesmonde0',
-    email: 'nwestnedge0@cbc.ca',
+    username: 'CodyTA',
+    email: 'CODYTA@Codingbootcamp.com',
     password: 'password123'
   },
   {
-    username: 'jwilloughway1',
-    email: 'rmebes1@sogou.com',
+    username: 'CharlesTA',
+    email: 'CharlesTA@Codingbootcamp.com',
     password: 'password123'
   },
   {
-    username: 'iboddam2',
-    email: 'cstoneman2@last.fm',
+    username: 'TANK_Teach',
+    email: 'Tank_teach@Codingbootcamp.com',
     password: 'password123'
   },
   {
-    username: 'dstanmer3',
-    email: 'ihellier3@goo.ne.jp',
+    username: 'CamyTA',
+    email: 'CAMYTA@Codingbootcamp.com',
     password: 'password123'
   },
   {
-    username: 'djiri4',
-    email: 'gmidgley4@weather.com',
+    username: 'DarianTA',
+    email: 'DarianTA@Codingbootcamp.com',
     password: 'password123'
   },
   {
-    username: 'msprague5',
-    email: 'larnout5@imdb.com',
+    username: 'GaryTA',
+    email: 'GARYTA@Codingbootcamp.com',
     password: 'password123'
   },
   {
-    username: 'mpergens6',
-    email: 'hnapleton6@feedburner.com',
+    username: 'RonnyTA',
+    email: 'RonnyTA@Codingbootcamp.com',
     password: 'password123'
   },
   {
-    username: 'tpenniell7',
-    email: 'kperigo7@china.com.cn',
+    username: 'Omar_Teach',
+    email: 'Omar_Teach@Codingbootcamp.com',
     password: 'password123'
   },
   {
-    username: 'msabbins8',
-    email: 'lmongain8@google.ru',
+    username: 'Jeffery',
+    email: 'Jeffery@student.Codingbootcamp.com',
     password: 'password123'
   },
   {
-    username: 'jmacarthur9',
-    email: 'bsteen9@epa.gov',
+    username: 'Luis',
+    email: 'Luis@student.Codingbootcamp.com',
     password: 'password123'
   }
 ];
