@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@600&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -6,7 +8,7 @@ body, html {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'Baloo Bhaijaan 2' sans-serif;
   color: #333;
 }
 
@@ -18,7 +20,10 @@ a {
 }
 
 a:hover {
+  background-color: #197d0f;
   color: #3486eb;
+  border-radius: 15px;
+  text-shadow: none;
 }
 
 button {
@@ -30,6 +35,17 @@ button {
   transition: background-color .1s;
   cursor: pointer;
   border-radius: 5px;
+}
+
+
+/* Logout Button */
+#logout {
+  padding: 16px 16px;
+}
+
+
+.btn-flat {
+  padding: 16px 16px;
 }
 
 button:hover {
@@ -59,6 +75,7 @@ textarea {
 
 form > div {
   margin-bottom: 2%;
+  
 }
 
 form label {
@@ -168,6 +185,13 @@ main {
 .edit-post-form {
   margin-bottom: 5%;
 }
+
+.comment-url a:hover {
+  color: #1f9c13;
+}
+
+
+
 
 footer {
   border-top: 1px solid #ccc;

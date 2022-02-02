@@ -7,31 +7,31 @@
   <title>Plenty O' Coders</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link rel="stylesheet" href="./style-card.css">
-
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-  <div class="wrapper">
+  {{!-- Header And Navbar --}}
     <header>
-      <h1>
-        <a href="/">Plenty O' Coders</a>
-      </h1>
-      <nav>
+      <nav class="nav-wrapper indigo accent-2 row">
+        <a href="/" class="brand-logo center">POC</a>
         {{#if loggedIn}}
-        <a href="/dashboard">Dashboard</a>
-        <button id="logout" class="btn-no-style">Logout</button>
-        {{else}}
-        <a href="/login">Login</a>
+          <a href="/dashboard" class="left" style="padding-left: 3%;">Dashboard</a>
+          <button id="logout" class="btn-flat indigo accent-2 right" style="color: white; padding: 15px 15px;">Logout</button>
+          {{else}}
+          <a href="/login" class="right" style="padding-right: 5%;">Login</a>
         {{/if}}
       </nav>
     </header>
     <main>
       {{{ body }}}
     </main>
+
+    {{!-- Footer --}}
     <footer>
-      <h1 class='align-center'>Feel free to stop in for help anytime!</h1>
+      <h4 class='center'>Feel free to stop in for help anytime!</h4>
     </footer>
-  </div>
+  
   
   {{#if loggedIn}}
   <script src="/javascript/logout.js"></script>

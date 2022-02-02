@@ -1,29 +1,38 @@
+{{!-- Dashboard --}}
 <section>
-  <h2>Got an Issue and need help? </break> Found something that may help your peers? </break> Post it here!</h2>
+  <h3 class="center">Got an Issue and need help? </break> Found something that may help your peers? </break> Post it here!</h3>
+  <br>
+  <br>
 
-  <form class="new-post-form" id="post-form">
+  <form class="new-post-form container" id="post-form">
     <div>
-      <label for="post-title">Titles:</label>
+      <label for="post-title" style="font-size: 30px;">Title:</label>
       <input type="text" id="post-title" name="title"/>
     </div>
     <div>
-      <label for="post-question">Post your issue:</label>
+      <label for="post-question" style="font-size: 30px;">Post your issue:</label>
       <input type="text" id="post-question" name="question"/>
     </div>
     <div>
-      <label for="post-url">Link to your code</label>
+      <label for="post-url" style="font-size: 30px;">Link to your code</label>
       <input id="post-url" name="post_url"/>
     </div>
-    <button type="submit" class="btn">Create</button>
+    <button type="submit" class="btn indigo accent-2">Create</button>
   </form>
 </section>
+<br>
+<br>
 
 {{#if posts.length}}
-<section>
+<section class="container">
   <h2>Your Posts</h2>
     {{#each posts as |post|}}
       {{> post-info post}}
-      <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
+      <div class="center">
+        <a href="/dashboard/edit/{{post.id}}" class="edit-link btn deep-orange lighten-3 center" style="color: black;">Edit post</a>
+      </div>
+      <br>
+      
     {{/each}}
 </section>
 {{/if}}
