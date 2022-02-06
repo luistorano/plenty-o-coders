@@ -1,6 +1,12 @@
 {{!-- Dashboard --}}
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="../public/stylesheets/style.css">
+  <link rel="stylesheet" href="../public/stylesheets/style-card.css">
+
+</head>
 <section>
-  <h3 class="center">Got an Issue and need help? </break> Found something that may help your peers? </break> Post it here!</h3>
+  <h3 class="center" style="font-size: 30px;">Got an Issue and need help? </break> Found something that may help your peers? </break> Post it here!</h3>
   <br>
   <br>
 
@@ -25,7 +31,7 @@
 
 {{#if posts.length}}
 <section class="container">
-  <h2>Your Posts</h2>
+  <h2 class="center">Your Posts</h2>
     {{#each posts as |post|}}
       {{> post-info post}}
       <div class="center">
