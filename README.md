@@ -1,8 +1,16 @@
-# plenty-o-coders
+# Plenty O' Coders
 
-models
-routes
-api postes puts deletes
+## Welcome to Plenty O' Coders!
 
-Pages by topic
-search by user and title/topic
+Things you can do:
+* Search by category
+* Reply to posts
+* Create Account
+* Login to account
+
+Bellow you can see a preview of the login page :) 
+
+
+
+
+![](https://github.com/luistorano/plenty-o-coders/blob/main/media/readme-file/POC-screencapture.gif)
